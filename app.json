@@ -30,17 +30,13 @@
       },
       "package": "com.ieltsprep.app",
       "predictiveBackGestureEnabled": false,
+      "versionCode": 1,
       "permissions": [
         "INTERNET",
         "RECEIVE_BOOT_COMPLETED",
         "VIBRATE",
         "SCHEDULE_EXACT_ALARM",
-        "USE_EXACT_ALARM",
-        "POST_NOTIFICATIONS",
-        "READ_EXTERNAL_STORAGE",
-        "WRITE_EXTERNAL_STORAGE",
-        "READ_MEDIA_IMAGES",
-        "READ_MEDIA_VIDEO"
+        "POST_NOTIFICATIONS"
       ]
     },
     "web": {
@@ -66,13 +62,10 @@
     "extra": {
       "router": {
         "origin": false
+      },
+      "eas": {
+        "projectId": "11ae2518-e20a-44f2-a997-00d9efe2def2"
       }
-    },
-    "updates": {
-      "url": "https://u.expo.dev/your-project-id"
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
     }
   }
 }
