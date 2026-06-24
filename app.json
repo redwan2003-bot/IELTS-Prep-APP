@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "extra": {
+      "eas": {
+        "projectId": "66ca3e3e-32df-4eb9-85de-24a6eb45c8a2"
+      }
+    },
+    "android": {
+      "package": "com.redwan2003.app"
+    },
+    "ios": {
+      "bundleIdentifier": "com.redwan2003.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    }
+  }
+}
